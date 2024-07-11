@@ -1,0 +1,57 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
+
+/* .header {
+    font-size: 28px;
+} */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1264px;
+    background-color: grey;
+    margin: 0 auto;
+}
+
+:root{
+    --accent-color: #0EA32A
+    
+}
+
+.header {
+ 
+}
+
+
+
+.header_title {
+
+}
+
+.logo {
+  
+}
+
+.site-title {
+
+}
