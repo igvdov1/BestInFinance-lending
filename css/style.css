@@ -296,7 +296,7 @@ body{
     flex: 1;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 16px;
     height: 52px;
     width: 312px;
@@ -311,132 +311,101 @@ body{
 
 .submit-button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color:#0EA32A;
+    ;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     flex-shrink: 0;
 }
 
 .submit-button:hover {
-    background-color: #218838;
+    background-color: #0EA32A;
+    ;
 }
 
 
 
-.footer{
+.footer {
     background-color: #141414;
     margin-top: 52px;
     height: 328px;
 }
 
-.container_footer{
-    
+.container-footer {
     height: 328px;
     width: 1336px;
-    /* padding-left: 68px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.container-content{
-    height: 220px;
-    width: 1264px;
-    
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
 }
 
-.small-container-content{
+.small-container-content {
+    display: flex;
+    flex-direction: column;
     padding-left: 104px;
-    padding-top: 40px;  
 }
 
-.contacts{
+.contacts {
     margin-top: 32px;
 }
 
-.support{
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.support {
     margin-top: 20px;
 }
 
-.footer-contacts{
+.footer-contacts {
     color: #FFFFFF;
-
 }
 
-.right-container{
-    margin-left: 690px;
-}
-
-.some-text{
-    color:#FFFFFF73;
-
-}
-
-/* delete */
-/* 
-#DIV_1 {
-    block-size: 1096px;
-    border-block-end-color: rgb(20, 20, 20);
-    border-block-start-color: rgb(20, 20, 20);
-    border-inline-end-color: rgb(20, 20, 20);
-    border-inline-start-color: rgb(20, 20, 20);
-    box-sizing: border-box;
-    caret-color: rgb(20, 20, 20);
-    color: rgb(20, 20, 20);
-    column-gap: 8px;
-    column-rule-color: rgb(20, 20, 20);
+.right-container {
     display: flex;
-    height: 1096px;
-    inline-size: 684px;
-    perspective-origin: 342px 548px;
-    row-gap: 8px;
-    text-align: left;
-    text-decoration: none solid rgb(20, 20, 20);
-    text-emphasis-color: rgb(20, 20, 20);
-    transform-origin: 342px 548px;
-    width: 684px;
-    border: 0px none rgb(20, 20, 20);
-    flex-flow: column nowrap;
-    font: 16px / 24px "Suisse Intl", sans-serif;
-    outline: rgb(20, 20, 20) none 0px;
-    transition: opacity 0.4s ease-in-out 0s;
-} */
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 690px;
+    width: 426px;
+    height: 180px;
+}
 
-/* #DIV_1:after {
-    border-block-end-color: rgb(20, 20, 20);
-    border-block-start-color: rgb(20, 20, 20);
-    border-inline-end-color: rgb(20, 20, 20);
-    border-inline-start-color: rgb(20, 20, 20);
-    box-sizing: border-box;
-    caret-color: rgb(20, 20, 20);
-    color: rgb(20, 20, 20);
-    column-rule-color: rgb(20, 20, 20);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(20, 20, 20);
-    text-emphasis-color: rgb(20, 20, 20);
-    border: 0px none rgb(20, 20, 20);
-    font: 16px / 24px "Suisse Intl", sans-serif;
-    outline: rgb(20, 20, 20) none 0px;
-} */
-/* 
-#DIV_1:before {
-    border-block-end-color: rgb(20, 20, 20);
-    border-block-start-color: rgb(20, 20, 20);
-    border-inline-end-color: rgb(20, 20, 20);
-    border-inline-start-color: rgb(20, 20, 20);
-    box-sizing: border-box;
-    caret-color: rgb(20, 20, 20);
-    color: rgb(20, 20, 20);
-    column-rule-color: rgb(20, 20, 20);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(20, 20, 20);
-    text-emphasis-color: rgb(20, 20, 20);
-    border: 0px none rgb(20, 20, 20);
-    font: 16px / 24px "Suisse Intl", sans-serif;
-    outline: rgb(20, 20, 20) none 0px;
-} */
+.footer-nav {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.artebedev-logo {
+    align-self: flex-end;
+    margin-top: 76px;
+    margin-left: 181.82px;
+}
+
+.some-text {
+    
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400px;
+    color: #FFFFFF73;
+    /* line-height: 20; */
+    width: 426px;
+    padding-left: 0px;
+}
+
 
 .DIV_1{
     margin-left: 103px;
@@ -482,3 +451,5 @@ body{
 .toggle-checkbox:checked ~ .toggle-content {
     display: block;
 }
+
+
