@@ -10,11 +10,11 @@
     "slnt" 0;
 } */
 
-/* .header {
-    font-size: 28px;
-} */
+
 html {
     box-sizing: border-box;
+    background-color: #F5F6F7;
+    
 }
 
 *, *::before, *::after{
@@ -29,29 +29,331 @@ body{
 
 .container {
     max-width: 1264px;
-    background-color: grey;
-    margin: 0 auto;
+    /* background-color: grey; */
+    margin: 103 auto; 
+    /* margin: 0 auto; */
 }
 
 :root{
     --accent-color: #0EA32A
-    
+    --dark-color: #141414;
+    --grey-color: #00000099;
+    --white-color: #FFFFFFF5;
+    --background-color: #F5F6F7;
+
+}
+
+.svg-container {
+    width: 1264px;
+    height: 400px;
+    margin: 84px;
+    margin-bottom: 0;
+    margin-left: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
- 
+    /* Вы можете добавить стили для вашего заголовка здесь */
 }
 
-
+.container_header {
+    /* Вы можете добавить стили для контейнера здесь */
+    width: 1480px; /* Установлена ширина контейнера */
+    height: 68px; /* Установлена высота контейнера */
+    /* margin: 0 auto; Центровка контейнера */
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF
+}
 
 .header_title {
-
+    width: 964px;
+    height: 38px;
+    background-color: #FFFFFF;
+    padding: 18px; /* Отступы сверху и снизу по 18px, по бокам по 20px */
+    padding-left: 108px; /* Отступ слева 108px */
+    /* padding-right: 402px; */
+    align-items: center;
+    display: flex;
 }
 
 .logo {
-  
+    width: 121px;
+    height: 32px;
+    margin-right: 20px; /* Отступ справа от логотипа на 20 пикселей */
 }
 
 .site-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #141414;
+    font-family: "Inter", sans-serif;
+}
+
+.info-block {
+    width: 1264px;
+    height: 80px;
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: flex-end; /* Выравнивание по вертикали к нижнему краю */
+    justify-content: flex-start; /* Выравнивание по горизонтали к левому краю */
+    margin-left: 103px;
+}
+
+.info-block p {
+    margin: 0;
+    font-size: 24px;
+    color: #141414;
+ 
+    /* padding-bottom: 10px; Отступ снизу */
+}
+
+.box {
+    height: 144px;
+    width: 1264px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 103px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.box2 {
+    height: 144px;
+    width: 1264px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 103px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.box-header {
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #141414;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    
+    
+}
+
+.box-text {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 16px;
+    line-height: 1.5;
+}
+
+/* .section {
+    position: relative;
+    width: 1264px; 
+    padding-left: 10px;
+    margin-left: 103px; 
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+} */
+
+.title {
+    margin-left: 103px;
+    font-size: 16px;
+    color: #303030;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px; 
+    height: 30px;
+    margin-left: 1154px;
+    margin-top: 14px;
+}
+
+.line {
+    width: 1264px;
+    height: 2px;
+    background-color: #303030;
+    margin-left: 103px;
+    
+}
+
+.title2 {
+    margin-left: 103px;
+    font-size: 16px;
+    color: #303030;
+    font-weight: 400;
+    margin-top: 38px;
+}
+
+.icon2 {
+    width: 30px; 
+    height: 30px;
+    margin-right: 103px;
+    margin-top: 32px;
+}
+
+.title2 {
+    margin-left: 103px;
+    font-size: 16px;
+    color: #303030;
+    
+    margin-top: 38px;
+}
+
+
+.svg-container2 {
+    width: 1264px;
+    height: 712ыpx;
+    margin: 84px;
+    margin-bottom: 0;
+    margin-left: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.partners-section {
+    
+    width: 1264px;
+    height: 176px;
+    margin-left: 103px;
+}
+
+.partner-title
+{
+    font-size: 24px;
+    color: #141414;
+    padding-top: 52px;
+    padding-bottom: 20px;
+}
+
+.partners-container {
+    display: flex;
+    gap: 12px; /* Отступы между партнерами */
+}
+
+.partner-box {
+    width: 307px;
+    height: 76px;
+    background-color: #ffffff;
+    border-radius: 12px; 
+}
+
+
+.registration-section {
+    width: 1264px;
+    height: 204px;
+    padding: 32px;
+    margin-left: 103px;
+    margin-top: 51px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Добавляем относительное позиционирование для контейнера */
+}
+
+.registration-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 0; /* Убираем верхний внешний отступ */
+}
+
+.registration-form {
+    display: flex;
+    gap: 20px;
+    position: absolute; /* Используем абсолютное позиционирование для формы */
+    top: 120px; /* Отступ сверху */
+    left: 32px; /* Отступ слева */
+    width: calc(100% - 64px); /* Учитываем отступы слева и справа */
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-field::placeholder {
+    color: #888;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+
+
+.footer{
+    background-color: #141414;
+    margin-top: 52px;
+    height: 328px;
+}
+
+.container_footer{
+    
+    height: 328px;
+    width: 1336px;
+    /* padding-left: 68px; */
+}
+
+.container-content{
+    height: 220px;
+    width: 1264px;
+    
+}
+
+.small-container-content{
+    padding-left: 104px;
+    padding-top: 40px;  
+}
+
+.contacts{
+    margin-top: 32px;
+}
+
+.support{
+    margin-top: 20px;
+}
+
+.footer-contacts{
+    color: #FFFFFF;
+
+}
+
+.right-container{
+    margin-left: 690px;
+}
+
+.some-text{
+    color:#FFFFFF73;
 
 }
