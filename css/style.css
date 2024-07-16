@@ -98,6 +98,8 @@ body{
     /* background-color: #f2f2f2; */
     /* border: 1px solid #ccc; */
     display: flex;
+    size: 22px;
+    font-weight: 600;
     align-items: flex-end; /* Выравнивание по вертикали к нижнему краю */
     justify-content: flex-start; /* Выравнивание по горизонтали к левому краю */
     margin-left: 103px;
@@ -149,8 +151,11 @@ body{
     font-weight: 400;
     margin-top: 8px;
     margin-left: 16px;
+    font-family: "Suisse Intl", sans-serif;
     line-height: 1.5;
 }
+
+
 
 /* .section {
     position: relative;
@@ -237,6 +242,8 @@ body{
     font-size: 24px;
     color: #141414;
     padding-top: 52px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600px;
     padding-bottom: 20px;
 }
 
@@ -269,8 +276,10 @@ body{
 }
 
 .registration-title {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
+    font-weight: 600px;
+    font-family: 'Inter', sans-serif;
     margin-top: 0; /* Убираем верхний внешний отступ */
 }
 
@@ -289,6 +298,11 @@ body{
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    height: 52px;
+    width: 312px;
+    font-size: 15px;
+    font-weight: 400px;
+    font-family: "Suisse Intl", sans-serif;
 }
 
 .input-field::placeholder {
@@ -356,4 +370,115 @@ body{
 .some-text{
     color:#FFFFFF73;
 
+}
+
+/* delete */
+/* 
+#DIV_1 {
+    block-size: 1096px;
+    border-block-end-color: rgb(20, 20, 20);
+    border-block-start-color: rgb(20, 20, 20);
+    border-inline-end-color: rgb(20, 20, 20);
+    border-inline-start-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    caret-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+    column-gap: 8px;
+    column-rule-color: rgb(20, 20, 20);
+    display: flex;
+    height: 1096px;
+    inline-size: 684px;
+    perspective-origin: 342px 548px;
+    row-gap: 8px;
+    text-align: left;
+    text-decoration: none solid rgb(20, 20, 20);
+    text-emphasis-color: rgb(20, 20, 20);
+    transform-origin: 342px 548px;
+    width: 684px;
+    border: 0px none rgb(20, 20, 20);
+    flex-flow: column nowrap;
+    font: 16px / 24px "Suisse Intl", sans-serif;
+    outline: rgb(20, 20, 20) none 0px;
+    transition: opacity 0.4s ease-in-out 0s;
+} */
+
+/* #DIV_1:after {
+    border-block-end-color: rgb(20, 20, 20);
+    border-block-start-color: rgb(20, 20, 20);
+    border-inline-end-color: rgb(20, 20, 20);
+    border-inline-start-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    caret-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+    column-rule-color: rgb(20, 20, 20);
+    display: block;
+    text-align: left;
+    text-decoration: none solid rgb(20, 20, 20);
+    text-emphasis-color: rgb(20, 20, 20);
+    border: 0px none rgb(20, 20, 20);
+    font: 16px / 24px "Suisse Intl", sans-serif;
+    outline: rgb(20, 20, 20) none 0px;
+} */
+/* 
+#DIV_1:before {
+    border-block-end-color: rgb(20, 20, 20);
+    border-block-start-color: rgb(20, 20, 20);
+    border-inline-end-color: rgb(20, 20, 20);
+    border-inline-start-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    caret-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+    column-rule-color: rgb(20, 20, 20);
+    display: block;
+    text-align: left;
+    text-decoration: none solid rgb(20, 20, 20);
+    text-emphasis-color: rgb(20, 20, 20);
+    border: 0px none rgb(20, 20, 20);
+    font: 16px / 24px "Suisse Intl", sans-serif;
+    outline: rgb(20, 20, 20) none 0px;
+} */
+
+.DIV_1{
+    margin-left: 103px;
+
+}
+.toggle-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 103px;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    font-size: 24px;
+    color: #303030;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.toggle-checkbox:checked + .toggle-label::before {
+    content: '−';
+}
+
+.toggle-checkbox:not(:checked) + .toggle-label::before {
+    content: '+';
+}
+
+#SPAN_4 {
+    font-size: 16px;
+    color: #303030;
+}
+
+.toggle-content {
+    display: none;
+    margin-left: 103px;
+    margin-top: 10px;
+}
+
+.toggle-checkbox:checked ~ .toggle-content {
+    display: block;
 }
